@@ -3,7 +3,7 @@ Name: sberbank-jailbreak-bypass-patch
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: This is a package built upon Theos and prevents British Airways mobile app to detect Jailbreak
+Description: This is a package built upon Theos and prevents Sberbank mobile app to detect Jailbreak
 Maintainer: jene4444ka
 Author: jene4444ka
 Section: Tweaks
