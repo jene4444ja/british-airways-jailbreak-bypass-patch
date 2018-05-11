@@ -1,9 +1,9 @@
-Package: com.lyke.british-airways-jailbreak-bypass-patch
-Name: british-airways-jailbreak-bypass-patch
+Package: ru.sberbank-jailbreak-bypass-patch
+Name: sberbank-jailbreak-bypass-patch
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
 Description: This is a package built upon Theos and prevents British Airways mobile app to detect Jailbreak
-Maintainer: Muhammad Dadu
-Author: Muhammad Dadu
+Maintainer: jene4444ka
+Author: jene4444ka
 Section: Tweaks
