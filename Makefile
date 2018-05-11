@@ -1,7 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = britishairwaysjailbreakbypasspatch
-britishairwaysjailbreakbypasspatch_FILES = Tweak.xm
+TWEAK_NAME = sberbankjailbreakbypasspatch
+sberbankjailbreakbypasspatch_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
