@@ -9,7 +9,9 @@
 + (id)checkJailbreak {
 	return NULL;
 }
+
 %end
+
 #import <substrate.h>
 
 extern "C" int stat(const char *file_name, struct stat *buf);
