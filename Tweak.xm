@@ -52,8 +52,8 @@ int new_stat(const char *file_name, struct stat *buf)
 			strcmp(file_name, "var/root/Documents/Cracked") == 0 ||
 			strcmp(file_name, "private/var/lib/cydia") == 0 ||
 			strcmp(file_name, "private/var/mobile/Library/SBSettings/Themes") == 0 ||
-			strcmp(file_name, "/System/Library/Frameworks/Foundation.framework") == 0 ||
-			
+			strcmp(file_name, "System/Library/Frameworks/Foundation.framework") == 0 ||
+			strcmp(file_name, "private/jailbreak.txt") == 0 ||
 	   ) return -1;
 	return old_stat(file_name, buf);
 }
