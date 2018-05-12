@@ -1,6 +1,6 @@
-# british-airways-jailbreak-bypass-patch
+# sberbank-jailbreak-bypass-patch
 
-> This is a package built upon Theos and prevents British Airways mobile app to detect Jailbreak
+> This is a package built upon Theos and prevents sberbank mobile app to detect Jailbreak
 
 ### Development
 
