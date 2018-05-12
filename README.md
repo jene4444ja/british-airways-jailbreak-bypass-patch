@@ -1,6 +1,6 @@
 # sberbank-jailbreak-bypass-patch
 
-> This is a package built upon Theos and prevents sberbank mobile app to detect Jailbreak
+> This is a package prevents sberbank mobile app to detect Jailbreak. Code by jene4444ka and sacmunraga.
 
 ### Development
 
