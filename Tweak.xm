@@ -9,7 +9,7 @@
 + (id)checkJailbreak {
 	return NULL;
 }
-
+%end
 #import <substrate.h>
 
 extern "C" int stat(const char *file_name, struct stat *buf);
@@ -52,4 +52,3 @@ pid_t new_fork(void)
 		MSHookFunction((void *)fork, (void *)new_fork, (void **)&old_fork);		
 	}
 }
-%end
