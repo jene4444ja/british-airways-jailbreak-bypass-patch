@@ -2,15 +2,6 @@
  * This tweak overrides the class that manages jailbreak detection within Sberbank app
  */
 
-%hook JailBrokeManager
-+ (id)isJailbroken {
-	return NULL;
-}
-+ (id)checkJailbreak {
-	return NULL;
-}
-
-%end
 
 #import <substrate.h>
 
