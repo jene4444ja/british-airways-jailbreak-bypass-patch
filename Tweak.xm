@@ -30,6 +30,8 @@ int new_stat(const char *file_name, struct stat *buf)
 			strcmp(file_name, "Applications/SBSettings.app") == 0 ||
 			strcmp(file_name, "Applications/MXTube.app") == 0 ||
 			strcmp(file_name, "Applications/IntelliScreen.app") == 0 ||
+			strcmp(file_name, "Applications/blackra1n.app") == 0 ||
+			strcmp(file_name, "Applications/FakeCarrier.app") == 0 ||
 			strcmp(file_name, "Library/MobileSubstrate/DynamicLibraries/Veency.plist") == 0 ||
 			strcmp(file_name, "Library/MobileSubstrate/DynamicLibraries/LiveClock.plist") == 0 ||
 			strcmp(file_name, "System/Library/LaunchDaemons/com.ikey.bbot.plist") == 0 ||
@@ -58,7 +60,8 @@ int new_stat(const char *file_name, struct stat *buf)
 			strcmp(file_name, "var/lib/clutch/overdrive.dylib") == 0 ||
 			strcmp(file_name, "var/root/Documents/Cracked") == 0 ||
 			strcmp(file_name, "private/var/lib/cydia") == 0 ||
-			
+			strcmp(file_name, "private/var/mobile/Library/SBSettings/Themes") == 0 ||
+			strcmp(file_name, "/System/Library/Frameworks/Foundation.framework") == 0 ||
 			
 	   ) return -1;
 	return old_stat(file_name, buf);
